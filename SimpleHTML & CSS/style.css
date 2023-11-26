@@ -1,0 +1,426 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    margin: 0px;
+    height: 50px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+.content{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.content>h2{
+    color: #FA793C;
+    font-family: Pridi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 14px
+}
+.content-right>h3{
+    color: #000;
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 15px;
+
+
+}
+.content-right{
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+
+
+}
+.svg{
+    align-items: center;
+    display: inline-flex;
+    margin-left: 25px;
+
+}
+.morenewsname,.morenewsRESP{
+    display: none;
+}
+@media (max-width: 834px){
+    .header{
+        width: 100%;
+    }
+    .content{
+        width: 100% !important;
+    }
+    .content-middle{
+        display:block !important;
+        width: 640px !important;
+    }
+    .content-middle h1{
+        width: 100%;
+    }
+    .morenewsCONTENT{
+        width: 320px;
+        color: #FA793C;
+        font-family: Kanit;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .morenewsname h1{
+        width: 170px;
+        height: 41px;
+        color: #000;
+        font-family: Kanit;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .morenewsCONTENT p{
+        color: #000;
+        font-family: Kanit;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .morenewsRESP{
+        width: 100% !important;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .morenewsname{
+        display: block;
+        margin-left: 65px;
+    }
+    .linediv{
+        width: 700px;
+        height: 1px;
+        background-color: #000;
+        margin: 0px;
+    }
+    .content-middle2{
+        display: none !important;
+    }
+    .photoh1{
+        margin-left: -90px;
+        margin-top: 35px;
+    }
+    .nonedisplaycard{
+        display: none;
+    }
+    .image1,.image2{
+        width: 100% !important;
+        margin: 0px !important;
+        margin-top: 5px !important;
+    }
+    .imagesflex{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100% !important;
+    }
+    .sideimages{
+        margin: 0px !important;
+    }
+    .footer{
+        width:100% !important;
+    }
+    .middlewrap1{
+        width: 100% !important;
+    }
+
+}
+.svg1{
+    display: none;
+}
+@media (max-width: 375px){
+    .header,.content-right,.content{
+        width: 375px !important;
+    }
+    .middlewrap1{
+        display: flex !important;
+        text-align: center;
+        margin: 0px !important;
+        align-items: flex-start !important;
+    }
+    .h1box{
+        padding: 0px !important;
+    }
+    .photoh1{
+        margin-left: 15px !important;
+        padding: 0px !important;
+    }
+    .morenewsname{
+        text-align: left !important;
+        margin-left: 2px !important;
+    }
+    .content-middle{
+        margin-top: 55px !important;
+    }
+    .content-middle>p{
+        border-top: 1px solid gray !important;
+    }
+    .content{
+        justify-content: center;
+    }
+    .svg{
+        width: 24px !important;
+        height: 24px !important;
+    }
+    .content-right{
+        display: none;
+    }
+    .middlewrap1{
+        width: 375px !important;
+    }
+    .content-middle p{
+        width: 375px!important;
+        margin: 0px !important;
+    }
+    .middle{
+        width: 375px !important;
+    }
+    .footer{
+        width: 375px !important;
+    }
+    .middle h1{
+        text-align: center;
+        margin-top: 0px !important;
+        color: #FFF;
+        font-family: Kanit;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border: none !important;
+    }
+}
+.imagesflex{
+    display: inline-block;
+}
+.middle{
+    width: 100%;
+}
+.content-middle{
+    width: 532px;
+    height: 120px;
+    color: white;
+}
+.content-middle>p{
+    width: 532px;
+    margin-left: 25px;
+}
+.content-middle2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FFF;    
+    width: 440px;
+    height: 404px;
+    align-items: center;
+
+}
+.middlecontenticons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-left: 35px;
+    margin-bottom:40px
+
+}
+.middlewrap{
+    width: 100%;
+    margin: 38px auto;
+
+}
+.morenewsspan{
+    color: #000;
+    font-family: Kanit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+.icons>svg{
+    margin-left: 15px;
+}
+.middle h1{
+    margin: 0px;
+    color: #FFF;
+    font-family: Kanit;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 1px solid gray;
+}
+.middlebottomsectionwrap>h2{
+    color: #FA793C;
+    font-family: Kanit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.middlebottomsectionwrap>p{
+    width: 360px;
+    color: #000;
+    font-family: Kanit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.middlebottomsection{
+    margin-left: 38px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+.cardfoot{
+    display: flex;
+    align-items: center;
+}
+.cardfoot>span{
+    margin-left: 10px;
+}
+.cardinfo{
+    margin: 15px;
+}
+.img{
+    width: 100%;
+}
+.card1{
+    width: 380px;
+    height: 380px;
+    border: 1px solid #000;
+    margin-left: 2%;
+}
+.h1box{
+    width: 100%;
+    text-align: left;
+}
+.h22{
+    margin-top: 55px;
+    text-align: left;
+
+    margin-left: 350px;
+}
+.middlewrap1{
+    width: 100%;
+    height: 600px;
+    color: #D9D9D9;
+    background-image:url(image.png.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image1{
+    background-image:url(./Rectangle\ 12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.image1info{
+    padding: 25px;
+}
+.image2info{
+    padding: 25px;
+}
+.image2{
+    background-image:url(./Rectangle\ 13.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.image1,.image2{
+    margin-top: 25px;
+    color: white;
+    width: 800px;
+    height:450px;
+}
+
+.sideimage1{
+    width: 380px;
+    height: 129px;
+    width: 100%;
+    
+
+} 
+.sideinfo{
+    border: 1px solid black;
+
+}
+.sideinfofooter{
+    align-items: center;
+    display: flex;
+}
+.submiddle2images{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.image{
+    margin-top: 25px;
+}
+.h1box{
+    display: inline-block;
+    padding-left: 12%;
+    box-sizing: border-box;
+    width: 100%;
+}
+.sideinfo p,h1,.sideinfofooter{
+    padding-left:25px;
+    box-sizing: border-box;
+    width: 339px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color:white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Pridi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.footer>span{
+    margin-left: 15px;
+}
